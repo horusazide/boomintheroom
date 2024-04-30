@@ -1,0 +1,165 @@
+:root {
+    --red: #d00000;
+    --pink: #FED8DB;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#logo {
+    text-align: center;
+    background-color: var(--red);
+    padding: 15px;
+    color: white;
+}
+
+#logoBitR {
+    font-size: 60px;
+}
+
+#slogan {
+    font-size: 22px;
+}
+
+html {
+    background-color: var(--pink);
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.main-content {
+    font-size: 22px;
+}
+
+.product {
+    border: 5px solid white;
+    padding: 10px;
+}
+
+#productTable {
+    border-collapse: collapse;
+}
+
+#error {
+    text-align: center;
+    color: var(--red);
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
+#crossword {
+    border-collapse: collapse;
+    margin: 40px;
+}
+.crossword-b {
+    background-color: black;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    vertical-align: top;
+    font-size: 15px;
+    
+}
+
+.crossword-w {
+    background-color: white;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    vertical-align: top;
+    font-size: 15px;
+}
+
+#clues {
+    padding: 10px;
+    border: 3px solid var(--red);
+    font-size: 18px;
+}
+
+#poem {
+    text-align: center;
+    margin-top: 200px;
+}
+
+#code-title { 
+    text-align: center;
+    margin-top: 50px;
+}
+
+#code {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 80px;
+    font-family: "Times New Roman";
+}
+
+#program {
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-family: monospace;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+#guise1 {
+    width: 700px;
+    
+    
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+    position: fixed;
+    bottom: 90px;
+}
+
+#guise2 {
+    width: 1150px;
+    
+    left: 50%;
+    transform: translate(-54%, 0);
+    
+    position: fixed;
+    bottom: 0;
+}
+
+.guise {
+    background-color: var(--red);
+    padding: 12px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
